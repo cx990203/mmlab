@@ -97,3 +97,5 @@ log_level = 'INFO'
 load_from = 'mobilenet_v2_batch256_imagenet_20200708-3b2dc3af.pth'
 resume_from = None
 workflow = [('train', 1)]
+work_dir = './work_dirs\mobilenet-flower'
+gpu_ids = range(0, 1)
